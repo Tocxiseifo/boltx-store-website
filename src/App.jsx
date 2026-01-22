@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full h-auto md:overflow-hidden  bg-white font-semibold'>
+      <div className='w-full h-auto   bg-white font-semibold'>
         <NavBar />
         <HeroSection />
       </div>
