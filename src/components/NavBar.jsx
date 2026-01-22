@@ -45,8 +45,8 @@ const handleDrawerClose = () => {
                     </div>
                 </div>
                 <div className='flex flex-row mr-5 gap-4 relative left-11.25 md:left-0 xl:left-0'>
-                    <motion.button initial={{opacity:0 , y:-100}} animate={{opacity:1 , y:0}} transition={{duration:1 , ease:'easeOut' ,delay:0.5}} className='bg-transparent border-main-color w-[76px] h-10  border-2 text-main-color rounded-md cursor-pointer hover:bg-main-color hover:text-white duration-500 hover:duration-500 transition-all'>LogIn</motion.button>
-                    <motion.button initial={{opacity:0 , y:-100}} animate={{opacity:1 , y:0}} transition={{duration:1 , ease:'easeOut' ,delay:0.8}} className='bg-main-color border-main-color w-[76px] h-10  border-2 text-white rounded-md cursor-pointer hover:bg-white hover:text-main-color duration-500 hover:duration-500 transition-all'>SignIn</motion.button>
+                    <motion.button initial={{opacity:0 , y:-100}} animate={{opacity:1 , y:0}} transition={{duration:1 , ease:'easeOut' ,delay:0.5}} className='bg-transparent border-main-color w-19 h-10  border-2 text-main-color rounded-md cursor-pointer hover:bg-main-color hover:text-white duration-500 hover:duration-500 transition-all'>LogIn</motion.button>
+                    <motion.button initial={{opacity:0 , y:-100}} animate={{opacity:1 , y:0}} transition={{duration:1 , ease:'easeOut' ,delay:0.8}} className='bg-main-color border-main-color w-19 h-10  border-2 text-white rounded-md cursor-pointer hover:bg-white hover:text-main-color duration-500 hover:duration-500 transition-all'>SignIn</motion.button>
                 </div>
             </motion.nav>
                 <Drawer
@@ -68,11 +68,10 @@ const handleDrawerClose = () => {
                 <Divider  className='mb-6'/>
                 <List className='w-full h-1200 text-start flex flex-col gap-3 '>
                     <ListItem disablePadding className='flex flex-col gap-6 text-start items-start '>
-                        <span className="text-gray-700 text-lg transition ml-12 w-full text-start rounded hover:bg-gray-50 font-medium cursor-pointer">New Arrivals</span>
-                        <span className="text-gray-700 text-lg transition ml-12 w-full text-start rounded hover:bg-gray-50 font-medium cursor-pointer">Men</span>
-                        <span className="text-gray-700 text-lg transition ml-12 w-full text-start rounded hover:bg-gray-50 font-medium cursor-pointer">Women</span>
-                        <span className="text-gray-700 text-lg transition ml-12 w-full text-start rounded hover:bg-gray-50 font-medium cursor-pointer">Accessories</span>
-                        <span className="text-red-600 text-lg transition  ml-12 w-full hover:text-red-700  font-medium cursor-pointer">Sale</span>
+                        <span className="text-white text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Home</span>
+                        <span className="text-white text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">New Arrival</span>
+                        <span className="text-white text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Contact</span>
+                        <span className="text-white text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Support</span>
                     </ListItem>
                     <Divider />
                 </List>
