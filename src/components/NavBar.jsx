@@ -68,10 +68,10 @@ const handleDrawerClose = () => {
                 <Divider  className='mb-6'/>
                 <List className='w-full h-1200 text-start flex flex-col gap-3 '>
                     <ListItem disablePadding className='flex flex-col gap-6 text-start items-start '>
-                        <span className="text-white text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Home</span>
-                        <span className="text-white text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">New Arrival</span>
-                        <span className="text-white text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Contact</span>
-                        <span className="text-white text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Support</span>
+                        <span className="text-gray-700 text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Home</span>
+                        <span className="text-gray-700 text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">New Arrival</span>
+                        <span className="text-gray-700 text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Contact</span>
+                        <span className="text-gray-700 text-lg transition ml-12 w-full text-start rounded hover:text-purple-800 font-medium cursor-pointer">Support</span>
                     </ListItem>
                     <Divider />
                 </List>
